@@ -1,7 +1,7 @@
 {
   "name": "use-geolocation-hook",
-  "version": "1.0.0",
-  "description": "React hook for geolocation API",
+  "version": "1.0.1",
+  "description": "React hook to get the current geolocation of the user.",
   "main": "src/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -11,7 +11,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "lint": "eslint . --ext .ts --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "publish:update": "npm run format && npm run lint && npm publish --access public",
+    "prepublishOnly": "npm run build"
   },
   "author": {
     "name": "Marcelo Arias",
