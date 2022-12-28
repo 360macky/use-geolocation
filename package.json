@@ -1,5 +1,5 @@
 {
-  "name": "use-geolocation",
+  "name": "use-geolocation-hook",
   "version": "1.0.0",
   "description": "React hook for geolocation API",
   "main": "src/index.js",
