@@ -20,7 +20,7 @@ useGeolocation is a React hook that provides the current geolocation of the user
 ## 📦 Installation
 
 ```bash
-npm install use-geolocation
+npm install use-geolocation-hook
 ```
 
 ## 🤲 Contributing
